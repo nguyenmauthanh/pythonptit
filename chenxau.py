@@ -1,0 +1,6 @@
+s1 = str(input())
+s2 = str(input())
+p = int(input())
+print(s1[0:p-1],end="")
+print(s2,end="")
+print(s1[p-1:len(s1)])
